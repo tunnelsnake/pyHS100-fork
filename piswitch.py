@@ -4,10 +4,6 @@ from pyHS100 import SmartPlug
 #code modified by Jacob Thomas for use with OctoPrint -> www.github.com/tunnelsnake
 print("----------------Smartplug Interface---------------- \n")
 
-if len(sys.argv) != 2:
-    print("Invalid Arguments. Exiting. \n")
-    exit(1)
-
 while(True):
 
     inp = input("Plug >")
