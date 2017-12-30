@@ -6,7 +6,7 @@ print("----------------Smartplug Interface---------------- \n")
 
 while(True):
 
-    inp = input("Plug >")
+    inp = input("Plug> ")
 
 
     if str.lower(inp) == "change":
